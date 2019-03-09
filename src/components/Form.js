@@ -8,8 +8,16 @@ class Form extends Component {
           Origin Airport:
           <input
             type="text"
-            value={this.props.value}
+            value={this.props.value1}
             onChange={this.props.handleChange}
+          />
+        </label>
+        <label>
+          Desintation Airport:
+          <input
+            type="text"
+            value={this.props.value2}
+            onChange={this.props.handleChange2}
           />
         </label>
         <input type="submit" value="Submit" />
